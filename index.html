@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Project App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <form id="add-task-form">
+    <h2>Add Task</h2>
+    <label for="project-name">Project Name:</label>
+    <input type="text" id="project-name" name="project-name">
+    <br>
+    <label for="task-name">Task Name:</label>
+    <input type="text" id="task-name" name="task-name">
+    <br>
+    <label for="task-description">Task Description:</label>
+    <input type="text" id="task-description" name="task-description">
+    <br>
+    <label for="due-date">Due Date:</label>
+    <input type="date" id="due-date" name="due-date">
+    <br>
+    <button type="submit">Add Task</button>
+  </form>
+  
+  <ul id="task-list"></ul>
+
+  <script src="./script.js"></script>
+</body>
+</html>
